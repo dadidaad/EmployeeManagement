@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    outline: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+body {
+    font-family: 'Poppins';
+    background-color: rgb(243, 245, 245);
+}
+
+.form-check-input:checked {
+    background-color: green;
+}
+
+.card {
+    width: 35%;
+}
+
+.form-control:disabled {
+    outline: 0;
+    background: transparent;
+    border: 0;
+}
+
+table tbody tr th {
+    font-weight: normal;
+}
+
+.w-5 {
+    max-width: 5%;
+}
+
+.w-15 {
+    width: 15%;
+}
+.w-40{
+    width: 40%;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background: rgb(220, 219, 219);
+    color: var(--bs-primary);
+}
+.form-label{
+    font-weight: 600;
+}
+.form-required::after{
+    content: '(*)';
+    color: red;
+}
+.dropdown-item.active, .dropdown-item:active{
+    background: var(--bs-primary);
+    color: white !important;
+}
